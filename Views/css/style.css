@@ -1,0 +1,1501 @@
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	min-width:940px;
+}
+body {
+	background:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:1em;
+	color:#858585;
+}
+object {
+	vertical-align:top;
+	outline:none;
+}
+input, textarea, select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+}
+fieldset {
+	border:0;
+}
+p {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+	vertical-align:top;
+	text-align:left;
+}
+ul, ol {
+	list-style:none;
+}
+#main {
+	width:940px;
+	margin:0 auto;
+	font-size:0.875em;
+}
+#header {
+	height:171px;
+	margin-bottom:-8px;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float:right;
+}
+.col-1, .col-2, .col-3 {
+	float:left;
+}
+.clear {
+	clear:both;
+}
+.alignright {
+	text-align:right;
+}
+.aligncenter {
+	text-align:center;
+}
+.wrapper {
+	width:100%;
+	overflow:hidden;
+}
+.extra-wrap {
+	overflow:hidden;
+}
+.container {
+	width:100%;
+}
+.tail-top {
+	background:url(../images/tail-top.gif) left top repeat-x #1d1d1d;
+}
+.tail-bottom {
+	background:url(../images/tail-bottom.gif) left bottom repeat-x;
+}
+#contacts-form {
+	clear:right;
+	width:842px;
+	overflow:hidden;
+}
+#contacts-form fieldset {
+	border:none;
+	float:left;
+}
+#contacts-form .field {
+	clear:both;
+}
+#contacts-form label {
+	float:left;
+	width:112px !important;
+	width:109px;
+	line-height:18px;
+	padding-bottom:8px;
+	color:#fff;
+}
+#contacts-form input {
+	width:293px;
+	padding:1px 0 1px 3px;
+	background:#000;
+	border:1px solid #3a3a3a;
+	color:#fff;
+}
+#contacts-form textarea {
+	width:674px;
+	height:174px;
+	padding:2px 28px 1px 28px;
+	background:url(../images/textarea-bg.gif) no-repeat left top;
+	border:0;
+	color:#fff;
+	margin-bottom:15px;
+	overflow:auto;
+}
+#contacts-form .link2 {
+	float:right;
+}
+.movies {
+	width:100%;
+}
+.movies li {
+	float:left;
+	width:286px;
+	margin-right:15px;
+}
+.movies li.last {
+	margin-right:0;
+}
+.movies li.clear {
+	float:none;
+	width:auto;
+	margin:0;
+	font-size:0;
+	line-height:0;
+}
+.movies li img {
+	margin-left:-30px;
+	position:relative;
+}
+.movies li p {
+	margin:5px 0 15px 0;
+	padding-right:40px;
+}
+.movies li p span {
+	color:#fff;
+}
+.list {
+	margin-top:-30px;
+}
+.list li {
+	width:100%;
+	overflow:hidden;
+	vertical-align:top;
+	line-height:1.714em;
+	padding-top:40px;
+}
+.list li img {
+	float:left;
+	margin:-10px 20px 0 0;
+}
+.list li a {
+	text-decoration:none;
+}
+.list li a:hover {
+	color:#d72a18;
+}
+.sitemap-list {
+	padding-bottom:25px;
+}
+.sitemap-list li {
+	padding:0 0 0 10px;
+	line-height:1.714em;
+	background:url(../images/arrow.gif) no-repeat left 8px;
+}
+.sitemap-list li a {
+	color:#d72a18;
+}
+.img-box1 {
+	width:100%;
+	overflow:hidden;
+	line-height:1.714em;
+	padding:10px 0 12px 0;
+}
+.img-box1.alt {
+	padding-top:0;
+	padding-bottom:25px;
+}
+.img-box1.alt img {
+	margin-top:0;
+}
+.img-box1 img {
+	float:left;
+	margin:-10px 20px 0 0;
+}
+p {
+	margin-bottom:15px;
+	line-height:1.714em;
+}
+.p1 {
+	margin-bottom:23px;
+}
+.address {
+	width:100%;
+	overflow:hidden;
+	line-height:1.714em;
+}
+.address span {
+	color:#fff;
+	margin: 0 20px;
+}
+.address .fleft {
+	padding-right:43px !important;
+	padding-right:40px;
+}
+.address .fleft span {
+	float:left;
+	width:100px !important;
+	width:77px;
+}
+a {
+	color:#e1e1e1;
+	outline:none;
+}
+a:hover {
+	text-decoration:none;
+}
+h2 {
+	font-size:30px;
+	line-height:1.2em;
+	color:#1d1d1d;
+	text-transform:uppercase;
+	margin-bottom:12px;
+}
+h2 span {
+	display:block;
+	font-size:40px;
+	color:#2c6d9a;
+}
+h3 {
+	font-size:30px;
+	line-height:1.2em;
+	color:#bfbfbf;
+	margin-bottom:20px;
+}
+h3 b {
+	color:#e1e1e1;
+	font-weight:normal;
+}
+h3 span {
+	color:#d72a18;
+}
+h4 {
+	font-size:20px;
+	line-height:1.2em;
+	letter-spacing:-1px;
+	color:#2c6d9a;
+	margin-bottom:18px;
+}
+.link1 {
+	display:block;
+	float:left;
+	background:url(../images/link1-right.png) no-repeat right top;
+	color:#fff;
+	text-decoration:none;
+	line-height:1em;
+	cursor:pointer;
+}
+.link1:hover span {
+	text-decoration:underline;
+}
+.link1 span {
+	display:block;
+	float:left;
+	padding:0 5px;
+	background:url(../images/link1-left.png) no-repeat left top;
+}
+.link1 span span {
+	display:block;
+	background:url(../images/link1-tail.gif) repeat-x left top;
+	padding:8px 15px;
+}
+.link2 {
+	display:block;
+	float:left;
+	background:url(../images/link2-right.gif) no-repeat right top;
+	color:#fff;
+	cursor:pointer;
+	text-decoration:none;
+	line-height:1em;
+}
+.link2:hover span {
+	text-decoration:underline;
+}
+.link2 span {
+	display:block;
+	float:left;
+	padding:0 6px;
+	background:url(../images/link2-left.gif) no-repeat left top;
+}
+.link2 span span {
+	display:block;
+	background:url(../images/link2-tail.gif) repeat-x left top;
+	padding:9px 15px 10px 15px;
+}
+.line-hor {
+	overflow:hidden;
+	font-size:0;
+	line-height:0;
+	width:918px;
+	height:8px;
+	margin-left:11px;
+	background:url(../images/line-hor.gif) repeat-x left top;
+	z-index:1;
+	position:relative;
+}
+.box {
+	background:#000;
+	width:100%;
+	margin-top:-3px;
+}
+.box .border-left {
+	background:url(../images/border-left.gif) repeat-y left top;
+}
+.box .border-right {
+	background:url(../images/border-right.gif) repeat-y right top;
+}
+.box .inner {
+	padding:28px 50px 25px 50px;
+}
+#header .row-1 {
+	height:112px;
+	width:100%;
+	overflow:hidden;
+}
+#header .row-1 .fleft {
+	font-size:40px;
+	line-height:1.2em;
+	padding:26px 0 0 47px;
+}
+#header .row-1 .fleft a {
+	text-decoration:none;
+}
+#header .row-1 ul {
+	padding:49px 60px 0 0;
+	float:right;
+}
+#header .row-1 ul li {
+	float:left;
+	padding-left:54px;
+}
+#header .row-2 {
+	height:51px;
+}
+#header .row-2 ul {
+	width:100%;
+	overflow:hidden;
+}
+#header .row-2 ul li {
+	float:left;
+	font-size:20px;
+	line-height:2.4em;
+	margin-right:5px;
+	background-color:#000;
+}
+#header .row-2 ul li.last {
+	margin-right:0;
+}
+#header .row-2 ul li a {
+	text-decoration:none;
+	color:#f0f0f0;
+	width:184px;
+	height:56px;
+	float:left;
+	background-image:url(../images/nav-bg.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	text-align:center;
+}
+#header .row-2 ul li a:hover, #header .row-2 ul li a.active {
+	color:#d72a18;
+	background-image:url(../images/nav-act.gif);
+}
+#content .content {
+	padding:30px 0 39px 50px;
+}
+.inner_copy, .inner_copy a {
+	border:0;
+	float:right;
+	background:#f00;
+	color:#f00;
+	width:50%;
+	line-height:10px;
+	font-size:10px;
+	margin:-50% 0 0 0;
+	overflow:hidden;
+	padding:0;
+}
+
+/*********************** SignUp Slogan *************************/
+
+
+#signupSlogan {
+	width:940px;
+	height:175px;
+	position:relative;
+	background:url(../images/banner-bg2.gif) no-repeat left top;
+	color:#1d1d1d;
+}
+
+#signupSlogan .image {
+	position:absolute;
+	right:-30px;
+	top:-11px;
+	z-index:100;
+	width:572px;
+	height:348px;
+	background:url(../images/banner-img.png) no-repeat left top;
+}
+#signupSlogan p {
+	margin-bottom:23px;
+}
+#signupSlogan .inside {
+	padding:36px 0 0 50px;
+	width:320px;
+}
+
+/***********************************************************************/
+
+#slogan {
+	width:940px;
+	height:322px;
+	position:relative;
+	background:url(../images/banner-bg.gif) no-repeat left top;
+	color:#1d1d1d;
+}
+#slogan .image {
+	position:absolute;
+	right:-30px;
+	top:-11px;
+	z-index:100;
+	width:572px;
+	height:348px;
+	background:url(../images/banner-img.png) no-repeat left top;
+}
+#slogan p {
+	margin-bottom:23px;
+}
+#slogan .inside {
+	padding:36px 0 0 50px;
+	width:320px;
+}
+#page1 #content .box {
+	margin:0;
+}
+#page1 #header .row-2 ul li a {
+	height:59px;
+}
+#page1 #header .row-2 ul li.last a:hover {
+	position:relative;
+	z-index:2;
+}
+#footer {
+	background:url(../images/footer-tail.gif) repeat-x left top #bfbfbf;
+	color:#1d1d1d;
+	font-size:.86em;
+	line-height:1.667em;
+	text-align:center;
+}
+#footer .left {
+	background:url(../images/footer-left.gif) no-repeat left top;
+}
+#footer .right {
+	min-height:89px;
+	height:auto !important;
+	height:89px;
+	background:url(../images/footer-right.gif) no-repeat right top;
+	text-align:center;
+}
+#footer .footerlink {
+	padding:35px 25px;
+}
+.footerlink p {
+	margin:0;
+	padding:0;
+	line-height:normal;
+	white-space:nowrap;
+	text-indent:inherit;
+	color:#1d1d1d;
+}
+.footerlink a {
+	color:#1d1d1d;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	border:none;
+	text-decoration:underline;
+	background-color:transparent;
+}
+.footerlink a:hover {
+	color:#1d1d1d;
+	background-color:transparent;
+	text-decoration:none;
+}
+.footerlink .lf {
+	float:left;
+}
+.footerlink .rf {
+	float:right;
+}
+a {
+	outline:none;
+}
+
+/* ----- LOGIN & SIGNUP STYLE ----- */
+
+:root {
+	--body-bg: #000;
+	--form-bg: #13232f;
+	--white: #ffffff;
+
+	--main: #7e0e0e;
+	--main-light: lighten(var(--main),5%);
+	--main-dark: darken(var(--main),5%);
+		
+	--gray-light: #a0b3b0;
+	--gray: #ddd;
+		
+	--thin: 300;
+	--normal: 400;
+	--bold: 600;
+	--br: 4px;
+}
+
+.form {
+	background:rgba(var(--form-bg),.9); 
+	padding: 40px;
+	max-width:600px;
+	margin:5px auto;
+	border-radius:var(--br);
+	box-shadow:0 4px 10px 4px rgba(var(--form-bg),.3);
+}
+
+.tab-group {
+	list-style:none;
+	padding:0;
+	margin:0 0 40px 0;
+}
+
+.tab-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.log-h1 {
+	text-align:center;
+	color:var(--white);
+	font-weight:var(--hin);
+	margin:0 0 40px;
+}
+
+.log-label {
+	position: inherit;
+	transform:translateY(6px);
+	left:5px;
+	color:var(--white);
+	transition:all 0.25s ease;
+	top:-7px;
+	pointer-events: none;
+	font-size:19px;
+}
+
+.log-label:required {
+	margin:2px;
+	color:var(--main);
+}
+
+.log-label.active {
+	transform:translateY(50px);
+	left:2px;
+	font-size:14px;
+}
+
+.log-label.active:required {
+	opacity:0;
+}
+
+.log-label.highlight {
+	color:var(--white);
+}
+
+.log-input{
+	font-size:22px;
+	display:block;
+	width:96%;
+	height:100%;
+	padding:5px 10px;
+	background:none;
+	background-image:none;
+	border:1px solid var(--gray-light);
+	color:var(--white);
+	border-radius:0;
+	transition:border-color .25s ease, box-shadow .25s ease;
+}
+
+.log-input:focus{
+	outline:0;
+	border-color:var(--main);
+}
+
+.field-wrap {
+	position:relative;
+	margin-bottom:40px;
+}
+
+.top-row {
+	float:left;
+	width:45%;
+	margin-right:4%;
+}
+
+.top-row:last-child{
+	margin:0;
+}
+
+.top-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.top-right {
+	float: right;
+	width:45%;
+	margin-left:4%;
+}
+
+.top-right:last-child{
+	margin:0;
+}
+
+.top-right:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.button {
+	border:0;
+	outline:none;
+	border-radius:0;
+	padding:15px 0;
+	font-size:2rem;
+	font-weight:var(--bold);
+	text-transform:uppercase; 
+	letter-spacing:.1em;
+	background:var(--main);
+	color:var(--white);
+	transition:all.5s ease;
+	-webkit-appearance: none;
+}
+
+.button:hover, .button:focus {
+	background:var(--main-dark);
+}
+
+.button-block {
+	display:block;
+	width:100%;
+}
+
+.forgot {
+	margin-top:-20px;
+	text-align:right;
+} 
+
+/* -------------------------------- */
+
+/* -------- Opt Button ------------ */
+
+.optButton {
+	border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 10px;
+    font-size: 18px;
+    /* font-weight: var(--bold); */
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: var(--main);
+    color: var(--white);
+    transition: all.5s ease;
+    -webkit-appearance: none;
+}
+
+.optButton:hover, .optButton:focus {
+	background:var(--main-dark);
+}
+
+.optButton-block {
+	display:block;
+	width:100%;
+}
+
+/* -------------------------------- */
+/* -------- Slog Button ------------ */
+
+.slogButton {
+	position:absolute;
+
+	right:10px;
+	bottom:10px;
+
+
+	border: 0;
+    outline: none;
+    border-radius:0;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: var(--bold);
+	text-transform: uppercase;
+	text-align: center;
+    letter-spacing: .1em;
+    background: rgb(68, 125, 160);
+    color: rgb(41, 41, 41);
+    transition: all.5s ease;
+    -webkit-appearance: none;
+}
+
+.slogButton:hover, .slogButton:focus {
+	background:var(--main-dark);
+}
+
+.slogButton-block {
+	display:block;
+	width:25%;
+}
+
+.slogButton2 {
+	position:absolute;
+
+	right:10px;
+	bottom:50px;
+
+
+	border: 0;
+    outline: none;
+    border-radius:0;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: var(--bold);
+	text-transform: uppercase;
+	text-align: center;
+    letter-spacing: .1em;
+    background: rgb(68, 125, 160);
+    color: rgb(41, 41, 41);
+    transition: all.5s ease;
+    -webkit-appearance: none;
+}
+
+.slogButton2:hover, .slogButton2:focus {
+	background:var(--main-dark);
+}
+
+.slogButton2-block {
+	display:block;
+	width:25%;
+}
+
+/* -------------------------------- */
+
+.movieImg {
+	width: 200px;
+	height: 300px;
+}
+
+.movieText {
+	font-size: 18px;
+}
+
+.cineText {
+	font-size: 18px;
+}
+
+/* ----------- Carousel ----------- */
+
+html .swiper-container, body .swiper-container{
+	position: relative;
+	height: 100%;
+}
+
+body .swiper-container{
+	background: rgb(0, 0, 0);
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+	height: 400px;
+	 /* background: #161616; */ 
+	/* Center slide text vertically */
+	 /* display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;  */
+}
+
+.swiper-slide .imgBox {
+	width: 100%;
+	height: 300px;
+	/* overflow: hidden; */
+}
+
+.swiper-slide .imgBox img {
+	border-radius:2%;
+	width: 80%;
+	cursor: pointer;
+}
+
+.swiper-slide .details {
+	box-sizing: border-box;
+	padding: 0 5px;
+	text-align: center;
+}
+
+.swiper-slide .details h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.imgButton {
+	text-align: center;
+	border:0;
+	border-radius:2%;
+	padding:15px 0;
+	background:rgb(15, 15, 15);
+	color:var(--white);
+	transition:all.5s ease;
+	-webkit-appearance: none;
+}
+
+.imgButton:hover, .imgButton:focus {
+	background:var(--main-dark);
+	cursor: pointer;
+}
+
+.imgButton-block {
+	display:block;
+	width:100%;
+}
+
+/* -------------------------------- */
+
+/* ---------- Calendar table ------------ */
+
+/* Table 1 Style */
+table.calendarTable{
+	width:100%;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.calendarTable thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgb(143, 35, 35);
+    border:1px solid rgb(206, 55, 55);
+    border-bottom:3px solid rgb(217, 41, 41);
+    background-color:rgb(217, 41, 41);
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(192, 67, 67)),
+        color-stop(0.51, rgb(198, 66, 66)),
+        color-stop(0.87, rgb(217, 41, 41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(192, 67, 67) 2%,
+        rgb(198, 66, 66) 51%,
+        rgb(217, 41, 41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.calendarTable thead th:empty{
+    background:transparent;
+    border:none;
+}
+.calendarTable tbody th{
+    color:#fff;
+    text-shadow:1px 1px 1px rgb(143, 35, 35);
+    background-color:rgb(217, 41, 41);
+    border:1px solid rgb(206, 55, 55);
+    border-right:3px solid rgb(217, 41, 41);
+    padding:0px 10px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(217, 41, 41)),
+        color-stop(0.51, rgb(198, 66, 66)),
+        color-stop(0.87, rgb(192, 67, 67))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(217, 41, 41) 2%,
+        rgb(198, 66, 66) 51%,
+        rgb(192, 67, 67) 87%
+        );
+    border-radius:5px 0px 0px 5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.calendarTable tfoot td{
+    color: rgb(208, 9, 9);
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.calendarTable tfoot th{
+    color:#666;
+}
+.calendarTable tbody td{
+    padding:5px;
+    text-align:center;
+    background-color:rgb(0, 0, 0);
+    border: 2px solid rgb(43, 43, 43);
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.calendarTable .imgBox {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.calendarTable .imgBox img {
+	width: 90px;
+	padding: 2px 0 0 0;
+	overflow: hidden;
+}
+
+.calendarTable .details {
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+}
+
+.calendarTable .details h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+/* -------------------------------------- */
+
+.seat {
+	width:50px;
+	height: 50px;
+	/* background-size: 2%;
+	background:url(../images/butaca-cerrada.png) ; */
+	
+}
+
+.seat:hover {
+	background:url(../images/seatOpen.png) ;
+}
+
+.seat-lock {
+	width:50px;
+	height: 50px;
+}
+
+.stairs {
+	width:50px;
+	height: 50px;
+}
+
+.seatsTable {
+	margin: auto;
+}
+
+.checkeable input{
+	display: none;
+}
+
+.checkeable input:checked {
+	border: #2c6d9a;
+}
+
+.checkeable img {
+	width: 50px;
+	height: 50px;
+}
+
+.checkeable input:checked + img {
+	background:url(../images/seatOpen.png) ;
+}
+
+.checkeableRad input:checked {
+	border-color: 2px solid red ;
+}
+
+
+.checkeableRad img {
+	cursor: pointer;
+}
+
+.checkeableRad input:checked + img {
+	border-color: 2px solid red ;
+	border: red;
+}
+
+/***************Collapsibles***************/
+
+.form hr {
+	border: 1px solid rgb(61, 61, 61);
+}
+
+.address .left {
+	float: left;
+	margin-left: 10%;
+}
+
+.address .right {
+	float: right;
+	margin-right: 10%;
+}
+
+/* -------------------------- info COLLAPSIBLE -------------------------- */
+
+.infoBox {
+	 
+	padding: 0px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: rgba(15, 15, 15, 0.76);
+	text-align: justify;
+	
+}
+
+.infoBox .left {
+	float: left;
+}
+
+.infoBox .right {
+	float: right;
+}
+
+.infoBox h5 {
+	margin-left: 5%;
+}
+
+.infoBox hr {
+	border: 1px solid rgb(61, 61, 61);
+	margin: 10px 13px 10px 13px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.infoCollapsible {
+	padding: 10px;
+	width: 300px;
+	background-color: rgba(10, 10, 10, 0.76);
+	color: #444;
+	cursor: pointer;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.infoCollapsible .left {
+	float: left;
+}
+
+.infoCollapsible .right {
+	float: right;
+}
+
+
+.infoCollapsible span {
+	color: rgb(177, 24, 24);
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .infoCollapsible:hover {
+	background-color: rgba(15, 15, 15, 0.76);
+}
+
+.infoCollapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+  
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+
+
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* -------------------------- MODIFY COLLAPSIBLE -------------------------- */
+
+.modifyBox{
+	
+	width: 100%;
+	/* display: none; */
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+
+	background-color: rgba(15, 15, 15, 0.76);
+
+}
+
+.modifyBox .left {
+	float: left;
+}
+
+.modifyBox .right {
+	float: right;
+}
+
+.modifyBox h5 {
+	margin-left: 5%;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.modifyCollapsible {
+	width: 100%;
+	background-color: black;
+	color: #444;
+	cursor: pointer;
+	padding: 10px 10px 5px 10px;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 30px;
+
+
+}
+
+.modifyCollapsible span {
+	color: rgb(177, 24, 24);
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .modifyCollapsible:hover {
+	background-color: rgba(15, 15, 15, 0.76);
+}
+
+.modifyCollapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+  
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+
+
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* -------------------------- TICKET COLLAPSIBLE -------------------------- */
+
+.ticketBox {
+	padding: 0 18px;
+	/* display: none; */
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+
+	background-color: rgba(15, 15, 15, 0.76);
+	margin-left: 5%;
+	margin-right: 60%;
+}
+
+.ticketBox h5 {
+	margin-left: 5%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.ticketCollapsible {
+	width: 35%;
+	background-color: black;
+	color: #444;
+	cursor: pointer;
+	padding: 10px 10px 5px 10px;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+
+	margin-left: 5%;
+	margin-right: 60%;
+}
+
+.ticketCollapsible span {
+	color: rgb(177, 24, 24);
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .ticketCollapsible:hover {
+	background-color: rgba(15, 15, 15, 0.76);
+}
+
+.ticketCollapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+  
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+
+
+}
+
+/* ------------------------------------------------------------------------ */
+
+
+/*-------------------------- Mensajes de notificacion --------------------------*/
+
+.correcto, .error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    text-align:left;
+    width:auto;
+}
+.correcto {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('imagenes/correcto.JPG');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('imagenes/error.jpg');
+}
+
+/***************************************/
+
+/*************** Select ****************/
+
+/* body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #f39c12;
+} */
+/* h1 {
+	margin: 0 0 0.25em;
+} */
+  /* Reset Select */
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	outline: 0;
+	box-shadow: none;
+	border: 0 !important;
+	background: #383838;
+	background-image: none;
+}
+  /* Remove IE arrow */
+select::-ms-expand {
+	display: none;
+}
+
+  /* Custom Select */
+.select {
+	position: relative;
+	display: flex;
+	width: 20em;
+	height: 3em;
+	line-height: 3;
+	background: #502c2c;
+	overflow: hidden;
+	border-radius: .25em;
+}
+select {
+	flex: 1;
+	padding: 0 .5em;
+	color: #fff;
+	cursor: pointer;
+
+}
+  /* Arrow */
+.select::after {
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 1em;
+	background: #2c2c2c;
+	cursor: pointer;
+	pointer-events: none;
+	-webkit-transition: .25s all ease;
+	-o-transition: .25s all ease;
+	transition: .25s all ease;
+}
+  /* Transition */
+.select:hover::after {
+	color: #d44141;
+}
+
+.selectButton {
+	width: 20em;
+	height: 3em;
+	margin:auto;
+}
+
+.selectButton .optButton {
+	background: #2c2c2c;
+	cursor: pointer;
+	border-radius: .25em;
+	padding: 8px;
+	margin: 2px 0;
+	transition: all.5s ease;
+	font-size: 12px;
+}
+
+.selectButton .optButton:hover{
+	background:#d44141;;
+}
+
+  /***************************************/
+  /*************** Checkbox **************/
+
+.tableContainer{
+	margin-left: 10px;
+	margin-top: -15px;
+	background: #383838;
+	width: 60%;
+	height: 50%;
+	
+	border-radius: .25em;
+}
+
+  /* The container */
+.containerCheck {
+	/* margin-top: 10px; */
+	margin: 10px;
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+
+  /* .containerCheck:hover{
+	background: #34495e;
+  } */
+  
+  /* Hide the browser's default checkbox */
+  .containerCheck input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+	position: absolute;
+	top: -2px;
+	left: 3px;
+	height: 20px;
+	width: 20px;
+	background-color: #eee;
+	border-radius: 100%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerCheck:hover input ~ .checkmark {
+	background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerCheck input:checked ~ .checkmark {
+	background-color: #d44141;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerCheck input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerCheck .checkmark:after {
+	left: 6px;
+	top: 2.5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+
+  .fbLog {
+	  margin-left: 95px;
+  }
